@@ -1,0 +1,10 @@
+logging:
+  file: logs/spring-boot-read-excel.log
+  pattern:
+    console: "%d [%-5level] [%thread] [%c{0}] %message %n"
+    file: "%d [%-5level] [%thread] [%c{0}] %message %n"
+  level:
+    org.springframework: INFO
+    com.example: TRACE
+
+endpoint: http://localhost:9005/api/refreshBulk
